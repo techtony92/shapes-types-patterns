@@ -1,0 +1,38 @@
+.panelStructure{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.panelDesign{
+    margin-bottom:2rem;
+}
+
+#headerPanel.panelStructure{
+}
+#headerPanel.panelDesign{
+        margin-bottom:2rem;
+
+}
+
+#skeleton.panelStructure{
+    height:25rem;
+    width:100%;
+}
+
+#skeleton.panelDesign{
+    border-radius: 1rem;
+    background:var(--lace);
+    margin-bottom:2rem;
+}
+
+#skeletonlg.panelStructure{
+    
+    height:40rem;
+    width:100%;
+}
+#skeletonlg.panelDesign{
+    margin-bottom:2rem;
+    border-radius: 1rem;
+    background:var(--lace);
+}

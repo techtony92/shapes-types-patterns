@@ -1,0 +1,107 @@
+:root {
+  --lavenderBlush:#fff0f5;
+  --lace:#FBFCF7;
+  --eggshell:#f0ead6;
+  --charcoal:#4a4a4a;
+  --leather:#0b0704;
+  --raven:#050301;
+  --fireBrick:#b22222;
+  --fern:#4f7942;
+  --shadow:#373737;
+  --lightShadow:#37373790;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 100%;
+  background: var(--lavenderBlush);
+}
+
+#main {
+  margin: 0rem 4rem;
+  padding: 4rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+#nav.navStructure {
+  display: flex;
+  flex-direction: row;
+  height: 7rem;
+  width: 100%;
+}
+
+#nav.navDesign {
+  background: var(--lace);
+}
+
+#aside.structure {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-basis: 38%;
+  height: auto;
+}
+
+#playground.design {
+  width: 100%;
+  height: 100vh;
+  flex-basis: 58%;
+  background-color: var(--lace);
+  border-radius: 0.6rem;
+  position: relative;
+}
+
+.panelStructure {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.panelDesign {
+  margin-bottom: 2rem;
+}
+
+#headerPanel.panelDesign {
+  margin-bottom: 2rem;
+}
+
+#skeleton.panelStructure {
+  height: 25rem;
+  width: 100%;
+}
+
+#skeleton.panelDesign {
+  border-radius: 1rem;
+  background: var(--lace);
+  margin-bottom: 2rem;
+}
+
+#skeletonlg.panelStructure {
+  height: 40rem;
+  width: 100%;
+}
+
+#skeletonlg.panelDesign {
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  background: var(--lace);
+}
+
+/*# sourceMappingURL=main.css.map */
